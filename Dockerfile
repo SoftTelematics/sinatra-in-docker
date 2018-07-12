@@ -5,4 +5,4 @@ ADD . /app
 RUN bundle install
 
 EXPOSE 9292
-CMD ["bundle", "exec", "rackup", "-b", "0.0.0.0"]
+CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0"]
