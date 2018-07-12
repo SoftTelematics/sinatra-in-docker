@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  'Привет из Docker!'
+  'Hello world!'
 end
 
 run Sinatra::Application
